@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="180" viewBox="0 0 750 180">
+  <defs>
+    <!-- Degradado principal azul/verde WAB -->
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0d3d4f"/>
+      <stop offset="50%"  stop-color="#1a7b8a"/>
+      <stop offset="100%" stop-color="#2aab8e"/>
+    </linearGradient>
+
+    <!-- Degradado para círculos decorativos -->
+    <linearGradient id="gradCircle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#63e6be" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1a7b8a" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <linearGradient id="gradCircle2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#63e6be" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <clipPath id="rounded">
+      <rect width="750" height="180" rx="20" ry="20"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fondo degradado -->
+  <rect width="750" height="180" fill="url(#gradBg)" clip-path="url(#rounded)"/>
+
+  <!-- Círculos decorativos fondo -->
+  <circle cx="680" cy="-20" r="130" fill="url(#gradCircle2)" clip-path="url(#rounded)"/>
+  <circle cx="720" cy="160" r="90"  fill="url(#gradCircle)"  clip-path="url(#rounded)"/>
+  <circle cx="40"  cy="170" r="110" fill="url(#gradCircle2)" clip-path="url(#rounded)"/>
+  <circle cx="-10" cy="20"  r="70"  fill="url(#gradCircle)"  clip-path="url(#rounded)"/>
+
+  <!-- Línea decorativa horizontal sutil -->
+  <line x1="60" y1="112" x2="690" y2="112" stroke="#63e6be" stroke-opacity="0.18" stroke-width="1"/>
+
+  <!-- Línea acento izquierda -->
+  <rect x="58" y="62" width="4" height="52" rx="2" fill="#63e6be" opacity="0.7"/>
+
+  <!-- Logo WAB como imagen referenciada -->
+  <image href="/img/LOGO DE CAPACITACIONES.png"
+         x="68" y="18" width="130" height="80"
+         preserveAspectRatio="xMidYMid meet"
+         opacity="1"/>
+
+  <!-- Línea separadora vertical entre logo y texto -->
+  <line x1="218" y1="38" x2="218" y2="118" stroke="#63e6be" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- Texto principal: WAB Capacitaciones -->
+  <text x="234" y="68"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="22" font-weight="700"
+        fill="#ffffff" letter-spacing="0.5">
+    WAB Capacitaciones
+  </text>
+
+  <!-- Frase secundaria -->
+  <text x="234" y="95"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="13.5" font-weight="400"
+        fill="#a8e6d8" letter-spacing="0.3">
+    Formación que transforma tu futuro
+  </text>
+
+  <!-- Puntitos decorativos derecha -->
+  <circle cx="600" cy="55"  r="3" fill="#63e6be" opacity="0.5"/>
+  <circle cx="616" cy="55"  r="3" fill="#63e6be" opacity="0.35"/>
+  <circle cx="632" cy="55"  r="3" fill="#63e6be" opacity="0.2"/>
+  <circle cx="600" cy="71"  r="3" fill="#63e6be" opacity="0.35"/>
+  <circle cx="616" cy="71"  r="3" fill="#63e6be" opacity="0.5"/>
+  <circle cx="632" cy="71"  r="3" fill="#63e6be" opacity="0.35"/>
+  <circle cx="600" cy="87"  r="3" fill="#63e6be" opacity="0.2"/>
+  <circle cx="616" cy="87"  r="3" fill="#63e6be" opacity="0.35"/>
+  <circle cx="632" cy="87"  r="3" fill="#63e6be" opacity="0.5"/>
+
+  <!-- Badge inferior derecho -->
+  <rect x="520" y="128" width="190" height="32" rx="16" fill="#ffffff" fill-opacity="0.1"/>
+  <text x="615" y="149"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="11" font-weight="600"
+        fill="#d0f5ee" text-anchor="middle" letter-spacing="0.8">
+    ✦ CERTIFICADO INCLUIDO ✦
+  </text>
+</svg>

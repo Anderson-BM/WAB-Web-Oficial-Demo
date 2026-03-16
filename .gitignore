@@ -1,0 +1,9 @@
+bin/ 
+obj/ 
+node_modules/ 
+.DS_Store 
+Thumbs.db 
+bin/
+obj/
+*.log
+*.tmp
