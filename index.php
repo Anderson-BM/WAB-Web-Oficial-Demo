@@ -83,7 +83,7 @@
 
 </section><br><br><br><br><br><br><br><br><br><br><br>
 
-<!-- MAS INFORMACION -->
+<!-- MAS INFORMACION --><!-- MAS INFORMACION -->
 <div class="contenedor-logo">
     <img src="/img/LOGO-WAB.png" alt="Logo" class="logo-empresa-capacitaciones">
     <h1 class="texto-empresa">
