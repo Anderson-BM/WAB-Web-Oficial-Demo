@@ -863,7 +863,7 @@
 <!-- ── CARD 1: Diplomado Impuesto Corporativo ── -->
 <div class="card-capacitaciones">
     <figure>
-        <img src="/img/DIPLOMADO2.png" alt="Diplomado Impuesto Corporativo">
+        <img src="/img/NewBannerCourse/DIPLOMADO-IMPUESTO-CORPORATIVO.svg" alt="Diplomado Impuesto Corporativo">
     </figure>
     <div class="contenido-capacitaciones">
         <h3>Diplomado Impuesto Corporativo</h3>
@@ -878,7 +878,7 @@
             data-status="proximamente"
             data-status-label="Próximamente"
             data-precio="Consultar precio"
-            data-img="/img/DIPLOMADO2.png"
+            data-img="/img/NewBannerCourse/DIPLOMADO-IMPUESTO-CORPORATIVO.svg"
             data-qr=""
             data-dirigido-a="Contadores, administradores y profesionales del área fiscal"
             data-duracion="Consultar duración y módulos"
@@ -953,7 +953,7 @@
 <!-- ── CARD 2: Diplomado Nóminas TSS y SIRLA ── -->
 <div class="card-capacitaciones">
     <figure>
-        <img src="/img/DIPLOMADO3.png" alt="Diplomado Nóminas TSS y SIRLA">
+        <img src="/img/NewBannerCourse/DIPLOMADO-NOMINAS-TSS-SIRLA.svg" alt="Diplomado Nóminas TSS y SIRLA">
     </figure>
     <div class="contenido-capacitaciones">
         <h3>Diplomado Nóminas TSS y SIRLA</h3>
@@ -968,7 +968,7 @@
             data-status="proximamente"
             data-status-label="Próximamente"
             data-precio="Consultar precio"
-            data-img="/img/DIPLOMADO3.png"
+            data-img="/img/NewBannerCourse/DIPLOMADO-NOMINAS-TSS-SIRLA.svg"
             data-qr=""
             data-dirigido-a="Recursos Humanos, contadores y administradores de nóminas"
             data-duracion="Consultar duración y módulos"
@@ -1035,7 +1035,7 @@
 <!-- ── CARD 3: Diplomado Nóminas Internacionales NIIF ── -->
 <div class="card-capacitaciones">
     <figure>
-        <img src="/img/DIPLOMADO1.png" alt="Diplomado Nóminas Internacionales NIIF">
+        <img src="/img/NewBannerCourse/DIPLOMADO-NOMINAS-INTERNACIONALES-NIIF.svg" alt="Diplomado Nóminas Internacionales NIIF">
     </figure>
     <div class="contenido-capacitaciones">
         <h3>Diplomado Nóminas Internacionales NIIF</h3>
@@ -1050,7 +1050,7 @@
             data-status="proximamente"
             data-status-label="Próximamente"
             data-precio="Consultar precio"
-            data-img="/img/DIPLOMADO1.png"
+            data-img="/img/NewBannerCourse/DIPLOMADO-NOMINAS-INTERNACIONALES-NIIF.svg"
             data-qr=""
             data-dirigido-a="Contadores, auditores y profesionales financieros internacionales"
             data-duracion="Consultar duración y módulos"
@@ -1117,7 +1117,7 @@
 <!-- ── CARD 4: Diplomado en Auditoría Financiera ── -->
 <div class="card-capacitaciones">
     <figure>
-        <img src="/img/DIPLOMADO4.png" alt="Diplomado en Auditoría Financiera">
+        <img src="/img/NewBannerCourse/DIPLOMADO-AUDITORIA-FINANCIERA.svg" alt="Diplomado en Auditoría Financiera">
     </figure>
     <div class="contenido-capacitaciones">
         <h3>Diplomado en Auditoría Financiera</h3>
@@ -1132,7 +1132,7 @@
             data-status="proximamente"
             data-status-label="Próximamente"
             data-precio="Consultar precio"
-            data-img="/img/DIPLOMADO4.png"
+            data-img="/img/NewBannerCourse/DIPLOMADO-AUDITORIA-FINANCIERA.svg"
             data-qr=""
             data-dirigido-a="Auditores, contadores y supervisores financieros"
             data-duracion="Consultar duración y módulos"
@@ -1207,7 +1207,7 @@
 <!-- ── CARD 5: Diplomado en Contabilidad por Iguala ── -->
 <div class="card-capacitaciones">
     <figure>
-        <img src="/img/DIPLOMADO11.png" alt="Diplomado en Contabilidad por Iguala">
+        <img src="/img/NewBannerCourse/DIPLOMADO-CONTABILIDAD-IGUALA.svg" alt="Diplomado en Contabilidad por Iguala">
     </figure>
     <div class="contenido-capacitaciones">
         <h3>Diplomado en Contabilidad por Iguala</h3>
@@ -1222,7 +1222,7 @@
             data-status="proximamente"
             data-status-label="Próximamente"
             data-precio="Consultar precio"
-            data-img="/img/DIPLOMADO11.png"
+            data-img="/img/NewBannerCourse/DIPLOMADO-CONTABILIDAD-IGUALA.svg"
             data-qr=""
             data-dirigido-a="Contadores, asistentes contables y profesionales independientes"
             data-duracion="Consultar duración y módulos"
@@ -1319,7 +1319,7 @@
 <!-- ── CARD 1: Taller sector de construcción normas 07-2007 ── -->
 <div class="card-capacitaciones">
     <figure>
-        <img src="/img/TALLER3.png" alt="Taller sector de construcción normas 07-2007">
+        <img src="/img/NewBannerCourse/TALLER-CONSTRUCCION-07-2007.svg" alt="Taller sector de construcción normas 07-2007">
     </figure>
     <div class="contenido-capacitaciones">
         <h3>Taller sector de construcción normas 07-2007</h3>
@@ -1334,7 +1334,7 @@
             data-status="expirado"
             data-status-label="Expirado"
             data-precio="Consultar precio"
-            data-img="/img/TALLER3.png"
+            data-img="/img/NewBannerCourse/TALLER-CONSTRUCCION-07-2007.svg"
             data-qr=""
             data-dirigido-a="Constructores, contadores y administradores del sector construcción"
             data-duracion="Taller intensivo · Consultar fechas"
@@ -1401,7 +1401,7 @@
 <!-- ── CARD 2: Taller interpretación de estados financieros ── -->
 <div class="card-capacitaciones">
     <figure>
-        <img src="/img/TALLER4.png" alt="Taller interpretación de estados financieros">
+        <img src="/img/NewBannerCourse/TALLER-ESTADOS-FINANCIEROS.svg" alt="Taller interpretación de estados financieros">
     </figure>
     <div class="contenido-capacitaciones">
         <h3>Taller interpretación de estados financieros</h3>
@@ -1416,7 +1416,7 @@
             data-status="expirado"
             data-status-label="Expirado"
             data-precio="Consultar precio"
-            data-img="/img/TALLER4.png"
+            data-img="/img/NewBannerCourse/TALLER-ESTADOS-FINANCIEROS.svg"
             data-qr=""
             data-dirigido-a="Gerentes, contadores, analistas y tomadores de decisiones"
             data-duracion="Taller intensivo · Consultar fechas"
@@ -1483,7 +1483,7 @@
 <!-- ── CARD 3: Taller presupuesto empresarial ── -->
 <div class="card-capacitaciones">
     <figure>
-        <img src="/img/TALLER1.png" alt="Taller presupuesto empresarial">
+        <img src="/img/NewBannerCourse/TALLER-PRESUPUESTO-EMPRESARIAL.svg" alt="Taller presupuesto empresarial">
     </figure>
     <div class="contenido-capacitaciones">
         <h3>Taller presupuesto empresarial</h3>
@@ -1498,7 +1498,7 @@
             data-status="expirado"
             data-status-label="Expirado"
             data-precio="Consultar precio"
-            data-img="/img/TALLER1.png"
+            data-img="/img/NewBannerCourse/TALLER-PRESUPUESTO-EMPRESARIAL.svg"
             data-qr=""
             data-dirigido-a="Gerentes, administradores, contadores y jefes de área"
             data-duracion="Taller intensivo · Consultar fechas"
@@ -1565,7 +1565,7 @@
 <!-- ── CARD 4: Taller Excel Básico, Intermedio y Avanzado ── -->
 <div class="card-capacitaciones">
     <figure>
-        <img src="/img/TALLER2.png" alt="Taller Excel, Básico, Intermedio y Avanzado">
+        <img src="/img/NewBannerCourse/TALLER-EXCEL.svg" alt="Taller Excel, Básico, Intermedio y Avanzado">
     </figure>
     <div class="contenido-capacitaciones">
         <h3>Taller Excel, Básico, Intermedio y Avanzado</h3>
@@ -1580,7 +1580,7 @@
             data-status="expirado"
             data-status-label="Expirado"
             data-precio="Consultar precio"
-            data-img="/img/TALLER2.png"
+            data-img="/img/NewBannerCourse/TALLER-EXCEL.svg"
             data-qr=""
             data-dirigido-a="Profesionales, administrativos y analistas de todas las áreas"
             data-duracion="Taller intensivo · 3 niveles · Consultar fechas"
