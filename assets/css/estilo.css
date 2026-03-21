@@ -2329,67 +2329,346 @@ __________________________________________________ */
   margin: 0 auto;
   line-height: 1.6;
 }
-
-.contact-form-section {
-  background: white;
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  margin-bottom: 60px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
+/* ── WRAPPER GRID ── */
+.cform-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    margin-bottom: 60px;
 }
-
-.contact-form-section h2 {
-  color: #2c3e50;
-  margin-bottom: 30px;
-  font-size: 1.8rem;
-  font-weight: 600;
-  text-align: center;
+ 
+/* ── IZQUIERDA ── */
+.cform-left {
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    border: 1px solid #e4eef1;
+    position: relative;
+    overflow: hidden;
 }
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+ 
+.cform-left::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #1a7b8a, #0e6e5e);
+    border-radius: 18px 18px 0 0;
 }
-
+ 
+.cform-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+}
+ 
+.cform-icono {
+    width: 46px; height: 46px;
+    background: linear-gradient(135deg, #1a7b8a, #0e6e5e);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    color: #fff;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(26,123,138,0.28);
+}
+ 
+.cform-titulo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #0d3d4f;
+    margin: 0 0 2px;
+    text-align: left;
+}
+ 
+.cform-subtitulo {
+    font-size: 0.8rem;
+    color: #7a9aa8;
+    margin: 0;
+}
+ 
+/* Campos */
+.cform-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+ 
+.cform-field label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #1a5c6e;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+ 
+.cform-field label i {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+ 
 .contact-form input,
 .contact-form textarea {
-  padding: 15px;
-  border: 2px solid #e9ecef;
-  border-radius: 10px;
-  font-size: 1rem;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-  font-family: inherit;
+    padding: 12px 16px;
+    border: 1.5px solid #d4eef2;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    transition: border-color 0.25s, box-shadow 0.25s;
+    font-family: inherit;
+    color: #1a3c4e;
+    background: #f8fbfc;
 }
-
+ 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  outline: none;
-  border-color: #4CAF50;
-  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+    outline: none;
+    border-color: #1a7b8a;
+    box-shadow: 0 0 0 3px rgba(26,123,138,0.1);
+    background: #fff;
 }
-
+ 
 .btn-contact {
-  background: linear-gradient(135deg, #4790A7, #4790A7); 
-  color: white;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 10px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #1a7b8a, #0f5c6e);
+    color: white;
+    padding: 13px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 14px rgba(26,123,138,0.28);
+    width: 100%;
+    margin-top: 4px;
 }
-
+ 
 .btn-contact:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(76, 175, 80, 0.3);
+    background: linear-gradient(135deg, #1d8fa0, #136b7e);
+    transform: translateY(-2px);
+    box-shadow: 0 7px 20px rgba(26,123,138,0.38);
 }
 
+.cform-canal {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 12px !important;
+}
+
+.cform-canal-icono {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: 36px !important;
+    width: 36px !important;
+    height: 36px !important;
+}
+
+.cform-canal > div {
+    flex: 1 !important;
+    min-width: 0 !important;
+}
+
+.cform-canal-titulo,
+.cform-canal-desc {
+    display: block !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+
+/* ── DERECHA ── */
+.cform-right {
+    background: linear-gradient(145deg, #071e2b 0%, #0d4a5c 55%, #0e6e5e 100%);
+    padding: 32px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(13,74,92,0.3);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ 
+.cform-right::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 200px; height: 200px;
+    border-radius: 50%;
+    background: rgba(99,230,190,0.07);
+    pointer-events: none;
+}
+ 
+.cform-right-titulo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0 0 4px;
+}
+ 
+.cform-right-sub {
+    font-size: 0.82rem;
+    color: #a8f0de;
+    margin: 0;
+    opacity: 0.88;
+}
+ 
+/* Canales -->
+.cform-canales {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ 
+.cform-canal {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 14px;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.22s ease;
+}
+ 
+.cform-canal:hover {
+    background: rgba(99,230,190,0.15);
+    border-color: rgba(99,230,190,0.35);
+    transform: translateX(4px);
+}
+ 
+.cform-canal-icono {
+    width: 36px; height: 36px;
+    border-radius: 9px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1rem;
+    flex-shrink: 0;
+    background: rgba(255,255,255,0.12);
+    color: #ffffff;
+}
+ 
+.cform-canal-ws .cform-canal-icono  { background: rgba(37,211,102,0.25); color: #25D366; }
+.cform-canal-email .cform-canal-icono { background: rgba(99,230,190,0.2); color: #63e6be; }
+.cform-canal-tel .cform-canal-icono   { background: rgba(255,255,255,0.12); color: #a8f0de; }
+ 
+.cform-canal-titulo {
+    display: block;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1px;
+}
+ 
+.cform-canal-desc {
+    display: block;
+    font-size: 0.75rem;
+    color: #a8f0de;
+    opacity: 0.85;
+}
+ 
+.cform-canal-arrow {
+    margin-left: auto;
+    color: rgba(255,255,255,0.3);
+    font-size: 0.75rem;
+    flex-shrink: 0;
+}
+ 
+/* Horario */
+.cform-horario {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 14px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(99,230,190,0.2);
+    border-radius: 12px;
+}
+ 
+.cform-horario-icono {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: rgba(99,230,190,0.15);
+    display: flex; align-items: center; justify-content: center;
+    color: #63e6be;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+ 
+.cform-horario-label {
+    display: block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #63e6be;
+    margin-bottom: 1px;
+}
+ 
+.cform-horario-valor {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: #d0f5ee;
+}
+ 
+/* Redes */
+.cform-redes { margin-top: auto; }
+ 
+.cform-redes-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #a8f0de;
+    opacity: 0.75;
+    margin: 0 0 10px;
+}
+ 
+.cform-redes-iconos {
+    display: flex;
+    gap: 10px;
+}
+ 
+.cform-red {
+    width: 36px; height: 36px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 9px;
+    display: flex; align-items: center; justify-content: center;
+    color: #ffffff;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: all 0.22s ease;
+}
+ 
+.cform-red:hover {
+    background: rgba(99,230,190,0.2);
+    border-color: rgba(99,230,190,0.4);
+    color: #63e6be;
+    transform: translateY(-2px);
+}
+ 
+.cform-red-ws:hover { background: rgba(37,211,102,0.2); color: #25D366; }
+ 
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+    .cform-wrapper { grid-template-columns: 1fr; }
+}
+ 
+@media (max-width: 480px) {
+    .cform-left, .cform-right { padding: 20px; }
+}
 .contact-info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -2513,50 +2792,143 @@ __________________________________________________ */
   text-align: center;
 }
 
+/* ── MAPA MEJORADO — prefijo cmap- ── */
 .contact-map {
-  background: white;
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    border: 1px solid #e4eef1;
+    position: relative;
+    overflow: hidden;
 }
-
-.contact-map h3 {
-  color: #2c3e50;
-  margin-bottom: 20px;
-  font-size: 1.8rem;
-  font-weight: 600;
-  text-align: center;
+ 
+.contact-map::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #1a7b8a, #0e6e5e);
+    border-radius: 18px 18px 0 0;
 }
-
-.map-note {
-  text-align: center;
-  margin-top: 15px;
-  color: #6c757d;
-  font-style: italic;
+ 
+.cmap-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 22px;
 }
-
-.map-note i {
-  color: #4CAF50;
-  margin-right: 8px;
+ 
+.cmap-header-icono {
+    width: 46px; height: 46px;
+    background: linear-gradient(135deg, #1a7b8a, #0e6e5e);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    color: #fff;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(26,123,138,0.28);
 }
-
+ 
+.cmap-titulo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #0d3d4f;
+    margin: 0 0 2px;
+    text-align: left;
+}
+ 
+.cmap-subtitulo {
+    font-size: 0.8rem;
+    color: #7a9aa8;
+    margin: 0;
+}
+ 
+.cmap-direccion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 16px;
+    background: #f4fafb;
+    border-radius: 12px;
+    border: 1px solid #d4eef2;
+}
+ 
+.cmap-dir-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+ 
+.cmap-dir-icono {
+    width: 30px; height: 30px;
+    background: linear-gradient(135deg, #1a7b8a, #0e6e5e);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    color: #fff;
+    font-size: 0.75rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+ 
+.cmap-dir-label {
+    display: block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #1a7b8a;
+    margin-bottom: 1px;
+}
+ 
+.cmap-dir-valor {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #1a3c4e;
+    line-height: 1.4;
+}
+ 
+.cmap-iframe-wrap {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #d4eef2;
+    margin-bottom: 16px;
+}
+ 
+.cmap-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #1a7b8a, #0f5c6e);
+    color: #fff;
+    border-radius: 12px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 14px rgba(26,123,138,0.28);
+}
+ 
+.cmap-btn:hover {
+    background: linear-gradient(135deg, #1d8fa0, #136b7e);
+    transform: translateY(-2px);
+    box-shadow: 0 7px 20px rgba(26,123,138,0.38);
+    color: #fff;
+}
+ 
 @media (max-width: 768px) {
-  .contact-main-info h2 {
-    font-size: 2rem;
-  }
-  
-  .contact-info-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-  
-  .contact-card {
-    padding: 30px 20px;
-  }
-  
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .contact-map    { padding: 20px; }
+    .cmap-titulo    { font-size: 1.05rem; }
+    .cmap-dir-valor { font-size: 0.8rem; }
+    .contact-main-info h2   { font-size: 2rem; }
+    .contact-info-grid      { grid-template-columns: 1fr; gap: 20px; }
+    .contact-card           { padding: 30px 20px; }
+    .services-grid          { grid-template-columns: repeat(2, 1fr); }
 }
 
 
