@@ -7,6 +7,13 @@
     <link rel="icon" type="/img/LogoWAB.jpg" href="img/favicon.png">
     <!-- Alternativa para más compatibilidad -->
     <link rel="shortcut icon" href="/img/LogoWAB.jpg" type="image/x-icon">
+
+    <!-- Code Analty of page -->
+     <meta name="google-site-verification" content="3XNo6rvOz008YRat2xAzKeWpGD7_8DaVicGOoHYAG9k" />
+
+     <!-- Code Ads -->
+    <meta name="google-adsense-account" content="ca-pub-7558159428167186">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
