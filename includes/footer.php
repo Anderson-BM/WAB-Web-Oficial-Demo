@@ -12,7 +12,7 @@
             <!-- Columna 2: Contacto -->
             <div class="footer-box">
                 <h3>Contacto</h3>
-                <p><i class="fas fa-map-marker-alt"></i>Edificio Senda officenter</p>
+                <p><i class="fas fa-map-marker-alt"></i>Santo Domingo, Edificio senda officenter</p>
                 <p><i class="fas fa-envelope"></i> contabilidad@wabconsultoriard.com</p>
                 <p><i class="fas fa-envelope"></i> capacitaciones@wabconsultoriard.com</p>
                 <p><i class="fas fa-envelope"></i> servicios@wabconsultoriard.com</p>
