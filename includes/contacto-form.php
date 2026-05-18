@@ -101,7 +101,7 @@
         </div>
         <h3>Nuestra Ubicación</h3>
         <p><strong>Dirección:</strong><br>
-        Santo Domingo, C/ Manolo Tavarez Justo #7, Renacimiento, DN</p>
+        Santo Domingo, Edificio senda officenter</p>
         <p><strong>Horarios de Atención:</strong><br>
         Lunes a Viernes: 8:00 AM - 6:00 PM</p>
       </div>
@@ -194,7 +194,7 @@
             </div>
             <div>
                 <span class="cmap-dir-label">Dirección</span>
-                <span class="cmap-dir-valor">C/ Manolo Tavárez Justo #7, Renacimiento, Santo Domingo, DN</span>
+                <span class="cmap-dir-valor">Santo Domingo, Edificio senda officenter</span>
             </div>
         </div>
         <div class="cmap-dir-item">
